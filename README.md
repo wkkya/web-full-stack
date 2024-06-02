@@ -1,4 +1,4 @@
-<p align="center"><a href="https://xugaoyi.com/" target="_blank" rel="noopener noreferrer"><img width="180" src="https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200409124835.png" alt="logo"></a></p>
+<p align="center"><a href="https://github.com/wkkya/web-full-stack/tree/main" target="_blank" rel="noopener noreferrer"><img width="180" src="docs\.vuepress\public\img\png\编程.png" alt="logo"></a></p>
 
 
 <h2 align="center">vuepress-theme-vdoing</h2>
