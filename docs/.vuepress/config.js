@@ -4,8 +4,8 @@ const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
 
-  theme: 'vdoing', // 使用依赖包主题
-  // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
+  //theme: 'vdoing', // 使用依赖包主题
+  theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
   title: "Web全栈知识体系",
   description: 'Web开发全栈知识体系',
@@ -25,68 +25,68 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '|'},
       {
-        text: '面试', link: '/pages/a2f161/', items: [
-          { text: '面试', link: '/pages/088c16/' },
-          { text: '产品设计', link: '/pages/088c16/' },
-          { text: '算法', link: '/pages/52d5c3/' },
-          { text: 'JAVA', link: '/pages/a2f161/' },
-          { text: '框架&中间件', link: '/pages/793dcb/' },
-          { text: '数据库', link: '/pages/2f674a/' },
-          { text: '数据挖掘', link: '/pages/2f674a/' },
-          { text: '运维', link: '/pages/33d574/' },
-          { text: '架构设计', link: '/pages/33d574/' },
-          { text: '产品设计', link: '/pages/088c16/' },
-          { text: '项目管理', link: '/pages/d0d7eb/' },
-          { text: 'Markdown 中使用组件', link: '/pages/197691/' },
+        text: '面试', link: '/pagesTest/a2f161/', items: [
+          { text: '面试', link: '/pagesTest/088c16/' },
+          { text: '产品设计', link: '/pagesTest/088c16/' },
+          { text: '算法', link: '/pagesTest/52d5c3/' },
+          { text: 'JAVA', link: '/pagesTest/a2f161/' },
+          { text: '框架&中间件', link: '/pagesTest/793dcb/' },
+          { text: '数据库', link: '/pagesTest/2f674a/' },
+          { text: '数据挖掘', link: '/pagesTest/2f674a/' },
+          { text: '运维', link: '/pagesTest/33d574/' },
+          { text: '架构设计', link: '/pagesTest/33d574/' },
+          { text: '产品设计', link: '/pagesTest/088c16/' },
+          { text: '项目管理', link: '/pagesTest/d0d7eb/' },
+          { text: 'Markdown 中使用组件', link: '/pagesTest/197691/' },
           {
             text: '相关文章', items: [
-              { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
-              { text: '如何让你的笔记更有表现力', link: '/pages/dd027d/' },
-              { text: '批量操作front matter工具', link: '/pages/2b8e22/' },
-              { text: '部署', link: '/pages/0fc1d2/' },
-              { text: '关于写文章和H1标题', link: '/pages/9ae0bd/' },
-              { text: '关于博客搭建与管理', link: '/pages/26997d/' },
-              { text: '在线编辑和新增文章的方法', link: '/pages/c5a54d/' },
+              // { text: '使目录栏支持h2~h6标题', link: '/pagesTest/8dfab5/' },
+              // { text: '如何让你的笔记更有表现力', link: '/pagesTest/dd027d/' },
+              // { text: '批量操作front matter工具', link: '/pagesTest/2b8e22/' },
+              // { text: '部署', link: '/pagesTest/0fc1d2/' },
+              // { text: '关于写文章和H1标题', link: '/pagesTest/9ae0bd/' },
+              // { text: '关于博客搭建与管理', link: '/pagesTest/26997d/' },
+              // { text: '在线编辑和新增文章的方法', link: '/pagesTest/c5a54d/' },
             ]
           }
         ]
       },
       { text: '|'},
-      { text: '算法', link: '/pages/52d5c3/' },
-      { text: 'JAVA', link: '/pages/a2f161/' },
-      { text: '框架&中间件', link: '/pages/793dcb/' },
-      { text: '数据库', link: '/pages/2f674a/' },
-      { text: '数据挖掘', link: '/pages/2f674a/' },
-      { text: '运维', link: '/pages/33d574/' },
-      { text: '架构设计', link: '/pages/33d574/' },
-      { text: '产品设计', link: '/pages/088c16/' },
-      { text: '项目管理', link: '/pages/d0d7eb/' },
+      { text: '算法', link: '/pagesTest/52d5c3/' },
+      { text: 'JAVA', link: '/pagesTest/a2f161/' },
+      { text: '框架&中间件', link: '/pagesTest/793dcb/' },
+      { text: '数据库', link: '/pagesTest/2f674a/' },
+      { text: '数据挖掘', link: '/pagesTest/2f674a/' },
+      { text: '运维', link: '/pagesTest/33d574/' },
+      { text: '架构设计', link: '/pagesTest/33d574/' },
+      { text: '产品设计', link: '/pagesTest/088c16/' },
+      { text: '项目管理', link: '/pagesTest/d0d7eb/' },
       { text: '|'},
-      { text: '前端基础', link: '/pages/33d574/' },
-      { text: 'JavaScript进阶', link: '/pages/33d574/' },
-      { text: 'Vue', link: '/pages/088c16/' },
-      { text: 'React', link: '/pages/d0d7eb/' },
-      { text: 'Node.js', link: '/pages/d0d7eb/' },
-      { text: '工程化', link: '/pages/d0d7eb/' },
+      { text: '前端基础', link: '/pagesTest/33d574/' },
+      { text: 'JavaScript进阶', link: '/pagesTest/33d574/' },
+      { text: 'Vue', link: '/pagesTest/088c16/' },
+      { text: 'React', link: '/pagesTest/d0d7eb/' },
+      { text: 'Node.js', link: '/pagesTest/d0d7eb/' },
+      { text: '工程化', link: '/pagesTest/d0d7eb/' },
       { text: '|'},
-      { text: '计算机网络', link: '/pages/d0d7eb/' },
-      { text: '组成原理', link: '/pages/d0d7eb/' },
-      { text: '操作系统', link: '/pages/d0d7eb/' },
-      { text: '数据结构', link: '/pages/d0d7eb/' },
+      { text: '计算机网络', link: '/pagesTest/d0d7eb/' },
+      { text: '组成原理', link: '/pagesTest/d0d7eb/' },
+      { text: '操作系统', link: '/pagesTest/d0d7eb/' },
+      { text: '数据结构', link: '/pagesTest/d0d7eb/' },
 
-      // { text: '资源', link: '/pages/db78e2/' },
-      // { text: '案例', link: '/pages/5d571c/' },
-      // { text: '问答', link: '/pages/9cc27d/' },
-      // { text: '赞助', link: '/pages/1b12ed/' },
+      // { text: '资源', link: '/pagesTest/db78e2/' },
+      // { text: '案例', link: '/pagesTest/5d571c/' },
+      // { text: '问答', link: '/pagesTest/9cc27d/' },
+      // { text: '赞助', link: '/pagesTest/1b12ed/' },
       // {
-      //   text: '配置', link: '/pages/a20ce8/', items: [
-      //     { text: '主题配置', link: '/pages/a20ce8/' },
-      //     { text: '首页配置', link: '/pages/f14bdb/' },
-      //     { text: 'front matter配置', link: '/pages/3216b0/' },
-      //     { text: '目录页配置', link: '/pages/54651a/' },
-      //     { text: '添加摘要', link: '/pages/1cc523/' },
-      //     { text: '修改主题颜色和样式', link: '/pages/f51918/' },
-      //     { text: '评论栏', link: '/pages/ce175c/' },
+      //   text: '配置', link: '/pagesTest/a20ce8/', items: [
+      //     { text: '主题配置', link: '/pagesTest/a20ce8/' },
+      //     { text: '首页配置', link: '/pagesTest/f14bdb/' },
+      //     { text: 'front matter配置', link: '/pagesTest/3216b0/' },
+      //     { text: '目录页配置', link: '/pagesTest/54651a/' },
+      //     { text: '添加摘要', link: '/pagesTest/1cc523/' },
+      //     { text: '修改主题颜色和样式', link: '/pagesTest/f51918/' },
+      //     { text: '评论栏', link: '/pagesTest/ce175c/' },
       //   ]
       // },
     ],
@@ -146,19 +146,19 @@ module.exports = {
         }
       ]
     },
-    // footer: { // 页脚信息
-    //   //createYear: 2019, // 博客创建年份
-    //   //copyrightInfo: 'wkkya | MIT License', // 博客版权信息，支持a标签
-    // },
+    footer: { // 页脚信息
+      createYear: 2024, // 博客创建年份
+      copyrightInfo: 'wkkya | MIT License', // 博客版权信息，支持a标签
+    },
     htmlModules,
   },
 
   // 插件
   plugins: [
-    // [require('./plugins/love-me'), { // 鼠标点击爱心特效
-    //   color: '#11a8cd', // 爱心颜色，默认随机色
-    //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
-    // }],
+    [require('./plugins/love-me'), { // 鼠标点击爱心特效
+      color: '#11a8cd', // 爱心颜色，默认随机色
+      excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
+    }],
 
     ['fulltext-search'], // 全文搜索
 
