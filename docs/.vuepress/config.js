@@ -144,12 +144,7 @@ module.exports = {
           title: 'GitHub',
           link: 'https://github.com/wkkya/web-full-stack'
         }
-        // ,
-        // {
-        //   iconClass: 'icon-erji',
-        //   title: '听音乐',
-        //   link: 'https://music.163.com/#/playlist?id=755597173'
-        // }
+        
       ]
     },
     footer: { // 页脚信息
